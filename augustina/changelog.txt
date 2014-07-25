@@ -1,0 +1,23 @@
+** Changelog for MagazinePress theme **
+** Author: http://www.themewarrior.com **
+
+July 14th, 2013 -- Version 1.0.3
+- Fix missing date and convert all urls, hashtags and usernames to be clickable in Warrior Twitter widget
+
+July 14th, 2013 -- Version 1.0.2
+- Add post link when widget Slideshow is displaying slides based on categories or tags
+- Fix Twitter-related widgets to be compatible with Twitter API v1.1
+
+December 15th, 2012 -- Version 1.0.1
+- Floating main menu
+- Slideshow widget can now display slides based on category / tag
+- Load custom.css file to the theme
+- Add missing translation
+- Add feature to disable featured image in single.php
+- Add featured to disable responsive layout
+- Add padding to input form field
+- Make Posts Box Type Three widget have the same column heights
+- Add instructions on how to add ad banners to ad widgets
+
+October 25th, 2012 -- Version 1.0.0
+- Theme is released

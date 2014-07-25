@@ -1,0 +1,67 @@
+.warrior-metabox {
+	position:relative;
+	padding: 20px;
+}
+
+/* -----------------------------------
+	Metabox Form Styles 
+-----------------------------------*/
+.warrior-metabox fieldset div.input {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.warrior-metabox fieldset label {
+	float: left;
+	width: 150px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.warrior-metabox fieldset div.input label.inline {
+	float: none;
+	width: auto;
+	font-weight: normal;
+	margin-right: 0;
+}
+
+.warrior-metabox fieldset div.text input,
+.warrior-metabox fieldset div.textarea textarea,
+.warrior-metabox fieldset div.checkbox input,
+.warrior-metabox fieldset div.select select {
+	float: left;
+	width: 65%;
+}
+
+.warrior-metabox fieldset div.checkbox input {
+	width: auto;
+	margin-right: 5px;
+}
+
+.warrior-metabox fieldset .hint {
+	clear: both;
+	font-size: 11px;
+	color: #999;
+	margin-left: 160px;
+	padding-top: 5px;
+}
+.icon-list input{
+	display: none;
+}
+.icon-list {
+	display: inline-block;
+}
+input[type=radio]:checked + label {
+	border: solid 1px rgb(0, 162, 255)!important;
+	color: rgb(0, 162, 255);
+}	
+.icon-list label {
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 15px;
+}

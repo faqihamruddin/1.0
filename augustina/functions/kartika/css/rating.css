@@ -1,0 +1,44 @@
+/* -----------------------------------
+	Star Rating Styles 
+-----------------------------------*/
+div.star_rate_ajax .rate {
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/star.png) left top no-repeat;
+	color: #ff0000;
+	text-indent: -9999px;
+	padding-right: 2px;
+}
+
+div.star_rate_ajax .rate:hover {
+	cursor: pointer;
+}
+
+div.star_rate_ajax .rate span {
+	display: block;
+	height: 16px;
+	text-indent: -9999px;
+}
+
+div.star_rate_ajax .on span {
+	background: url(../images/star.png) 0 -16px no-repeat;
+}
+
+div.star_rate_ajax a.active span {
+	background: url(../images/star.png) 0 -16px no-repeat;
+}
+
+div.star_rate_ajax a.active {
+	background: url(../images/star.png) 0 -16px no-repeat;
+}
+
+div.star_rate_ajax a.off span {
+	background: url(../images/star.png) no-repeat;
+}
+
+div.rate-info{
+	float: none;
+	clear: both;
+}

@@ -1,0 +1,368 @@
+/* -----------------------------------
+	Tabs Style
+-----------------------------------*/
+.warrior-shortcode-tabs.tab-shortcode {
+	margin: 0 0 20px;
+	padding: 0;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav {
+	width: 100%;
+	clear: both;
+    margin: 0;
+    padding: 0 !important;
+    position: relative;
+    top: 1px;
+    z-index: 10;	
+}
+.warrior-shortcode-tabs.tab-shortcode .tab-content {
+	clear: both;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	padding: 10px;
+	margin: 0;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav li {
+	margin: 0 !important;
+	padding: 0;
+	height: 30px;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav li a {
+	margin: 0;
+	padding: 0 15px;
+	font-weight: bold;
+	line-height: 29px;
+	color: #555;
+    border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: #eaeaea #dbdbdb #eaeaea #eaeaea;
+	border-bottom: 0 !important;
+	background: #eaeaea url(../images/shortcodes/tabs/tab-item-bg.gif) repeat-x;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+    -webkit-transition:opacity 0.2s ease-in-out;
+	-moz-transition:opacity 0.2s ease-in-out;
+	-o-transition:opacity 0.2s ease-in-out;
+	transition:opacity 0.2s ease-in-out;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav li a:hover { 
+	opacity: 0.75;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav li.first a {
+    border-left: 1px solid #eaeaea;
+}
+.warrior-shortcode-tabs.tab-shortcode ul.ui-tabs-nav .ui-state-active a {
+    background: #fff;
+    margin-bottom: -1px;
+}
+
+/* -----------------------------------
+	Accordion Style
+-----------------------------------*/
+.warrior-shortcode-accordion {
+	width: 100%;
+	margin: 0 0 20px;
+}
+.warrior-shortcode-accordion h3.accordion-caption {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 30px;
+    border: 1px solid #eaeaea;
+    background: #fafafa url(../images/shortcodes/toggle/arrow-left.png) 14px center no-repeat;
+	margin: 0 0 1px;
+    padding: 0 15px 0 35px;
+	cursor: pointer;
+	border-bottom:  1px solid #eaeaea;
+}
+.warrior-shortcode-accordion h3.accordion-caption.ui-state-active {
+    background-image: url(../images/shortcodes/toggle/arrow-down.png);
+}
+.warrior-shortcode-accordion .accordion-content {
+	background: #fff;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+	margin: -1px 0 1px;
+    padding: 10px;
+}
+
+/* -----------------------------------
+	Toggle Style
+-----------------------------------*/
+.warrior-shortcode-toggle {
+	clear: both;
+	width: 100%;
+	margin: 0 0 20px;
+}
+.toggles .last {
+	margin-bottom: 20px;
+}
+.warrior-shortcode-toggle h3.toggle-caption {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 30px;
+    border: 1px solid #eaeaea;
+    background: #fafafa url(../images/shortcodes/toggle/arrow-left.png) 14px center no-repeat;
+	margin: 0 0 1px 0;
+    padding: 0 10px 0 35px;
+	cursor: pointer;
+}
+.warrior-shortcode-toggle h3.toggle-caption.hide {
+    background-image: url(../images/shortcodes/toggle/arrow-down.png);
+}
+.warrior-shortcode-toggle .toggle-content {
+	background: #fff;
+    border: 1px solid #eaeaea;
+	margin: 0;
+    padding: 10px;
+}
+
+/* -----------------------------------
+	General Button Style
+-----------------------------------*/
+.warrior-shortcode-button {
+	text-decoration: none !important;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    overflow: visible;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 1em;
+	text-decoration: none;
+ 	margin: 0 5px 10px 0;
+	padding: 7px 15px;
+	border-width: 1px;
+	border-style: solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition:opacity 0.2s ease-in-out;
+	-moz-transition:opacity 0.2s ease-in-out;
+	-o-transition:opacity 0.2s ease-in-out;
+	transition:opacity 0.2s ease-in-out;
+}
+.warrior-shortcode-button.full {
+	display: block;
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+}
+.warrior-shortcode-button:hover { 
+	opacity: 0.85;
+}
+
+/* Black Button Style
+-----------------------------------*/
+.warrior-shortcode-button.black {
+	color: #fff;
+	border-color: #414141;
+	text-shadow: 1px 1px 0 #454545;
+	background: #515151 url(../images/shortcodes/buttons/black.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #999999; 
+	-moz-box-shadow: inset 0 1px 0 #999999; 
+	-webkit-box-shadow: inset 0 1px 0 #999999; 
+}
+
+/* Gray Button Style
+-----------------------------------*/
+.warrior-shortcode-button.gray {
+	color: #535353;
+	border-color: #a5a5a5;
+	text-shadow: 1px 1px 0 #cfcfcf;
+	background: #b0b0b0 url(../images/shortcodes/buttons/gray.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #dadada; 
+	-moz-box-shadow: inset 0 1px 0 #dadada; 
+	-webkit-box-shadow: inset 0 1px 0 #dadada; 
+}
+
+/* Blue Button Style
+-----------------------------------*/
+.warrior-shortcode-button.blue {
+	color: #176583;
+	border-color: #6aaec7;
+	text-shadow: 1px 1px 0 #dbf5ff;
+	background: #6fcef3 url(../images/shortcodes/buttons/blue.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #d7f3fd; 
+	-moz-box-shadow: inset 0 1px 0 #d7f3fd; 
+	-webkit-box-shadow: inset 0 1px 0 #d7f3fd; 
+}
+
+/* Red Button Style
+-----------------------------------*/
+.warrior-shortcode-button.red {
+	color: #8a2b3a;
+	border-color: #bf5570;
+	text-shadow: 1px 1px 0 #ee9ba5;
+	background: #e25c6c url(../images/shortcodes/buttons/red.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #f9a7b1; 
+	-moz-box-shadow: inset 0 1px 0 #f9a7b1; 
+	-webkit-box-shadow: inset 0 1px 0 #f9a7b1; 
+}
+
+/* Orange Button Style
+-----------------------------------*/
+.warrior-shortcode-button.orange {
+	color: #a76a00;
+	border-color: #e6ad3f;
+	text-shadow: 1px 1px 0 #ffe3ac;
+	background: #fdc455 url(../images/shortcodes/buttons/orange.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #ffe7b9; 
+	-moz-box-shadow: inset 0 1px 0 #ffe7b9; 
+	-webkit-box-shadow: inset 0 1px 0 #ffe7b9; 
+}
+
+/* Green Button Style
+-----------------------------------*/
+.warrior-shortcode-button.green {
+	color: #486715;
+	border-color: #8cb844;
+	text-shadow: 1px 1px 0 #bae476;
+	background: #96c549 url(../images/shortcodes/buttons/green.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #cef58e; 
+	-moz-box-shadow: inset 0 1px 0 #cef58e; 
+	-webkit-box-shadow: inset 0 1px 0 #cef58e; 
+}
+
+/* Purple Button Style
+-----------------------------------*/
+.warrior-shortcode-button.purple {
+	color: #5f425c;
+	border-color: #ca8fc4;
+	text-shadow: 1px 1px 0 #e0bfdd;
+	background: #cf8cc9 url(../images/shortcodes/buttons/purple.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #eed0eb; 
+	-moz-box-shadow: inset 0 1px 0 #eed0eb; 
+	-webkit-box-shadow: inset 0 1px 0 #eed0eb; 
+}
+
+/* Brown Button Style
+-----------------------------------*/
+.warrior-shortcode-button.brown {
+	color: #6d5539;
+	border-color: #9e866a;
+	text-shadow: 1px 1px 0 #c5b19a;
+	background: #a69178 url(../images/shortcodes/buttons/brown.gif) repeat-x;
+	box-shadow: inset 0 1px 0 #dac5ab; 
+	-moz-box-shadow: inset 0 1px 0 #dac5ab; 
+	-webkit-box-shadow: inset 0 1px 0 #dac5ab; 
+}
+
+/* -----------------------------------
+	General Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert {
+	display: block;
+    width: 99%;
+ 	margin: 0 0 20px;
+	padding: 8px 5px;
+    text-align: center;
+	border-width: 1px 0;
+	border-style: solid;
+	font: italic 14px/16px 'Georgia', serif;
+}
+.warrior-shortcode-alert p {
+	margin: 0 0 3px !important;
+	padding: 0 !important;
+	text-decoration: none;
+}
+
+/* Black Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.black {
+	color: #fff;
+	border-color: #4b4b4b;
+	text-shadow: 1px 1px 0 #323232;
+	background: #5b5b5b; 
+}
+
+/* Gray Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.gray {
+	color: #7e7e7e;
+	border-color: #d2d2d2;
+	text-shadow: 1px 1px 0 #f5f5f5;
+	background: #e0e0e0; 
+}
+
+/* Blue Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.blue {
+	color: #649bae;
+	border-color: #92d0e5;
+	text-shadow: 1px 1px 0 #bfecfc;
+	background: #aae4f8; 
+}
+
+/* Red Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.red {
+	color: #8a2b3a;
+	border-color: #b73949;
+	text-shadow: 1px 1px 0 #ec939e;
+	background: #e36373; 
+}
+
+/* Orange Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.orange {
+	color: #b98223;
+	border-color: #ebb64d;
+	text-shadow: 1px 1px 0 #ffd789;
+	background: #fdc455; 
+}
+
+/* Purple Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.purple {
+	color: #6c4f69;
+	border-color: #d69bd0;
+	text-shadow: 1px 1px 0 #f1d0ee;
+	background: #ddb7d9; 
+}
+
+/* Brown Alert Style
+-----------------------------------*/
+.warrior-shortcode-alert.brown {
+	color: #6d5539;
+	border-color: #a08e78;
+	text-shadow: 1px 1px 0 #d8c5ae;
+	background: #bda78d; 
+}
+
+/* -----------------------------------
+	Columns Style
+-----------------------------------*/
+.warrior-shortcode-one-half {
+	width: 48%;
+}
+.warrior-shortcode-one-third {
+	width: 30.66%;
+}
+.warrior-shortcode-one-fourth {
+	width: 22%;
+}
+.warrior-shortcode-one-half,
+.warrior-shortcode-one-third,
+.warrior-shortcode-one-fourth {
+	margin-right: 4%;
+	margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+.warrior-shortcode-one-half.warrior-shortcode-last,
+.warrior-shortcode-one-third.warrior-shortcode-last,
+.warrior-shortcode-one-fourth.warrior-shortcode-last {
+	margin-right: 0;
+}
+
+/* -----------------------------------
+	Dropcap Style
+-----------------------------------*/
+.warrior-shortcode-dropcap {
+	float: left;
+	font: 40px Georgia, 'Times New Roman';
+	margin: 0 5px 5px 0;
+}

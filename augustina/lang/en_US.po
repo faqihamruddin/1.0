@@ -1,0 +1,888 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MagazinePress (1.0.1)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-13 16:01+0700\n"
+"PO-Revision-Date: 2013-07-13 16:01+0700\n"
+"Last-Translator: ThemeWarrior <support@themewarrior.com>\n"
+"Language-Team: ThemeWarrior <support@themewarrior.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:15
+msgid ""
+"The page you're looking for is not available. The page may have been deleted "
+"or the URL has changed. You can try searching the page with the search form."
+msgstr ""
+
+#: ../comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:19
+msgid "There "
+msgstr ""
+
+#: ../comments.php:19
+msgid "is No Comment"
+msgstr ""
+
+#: ../comments.php:19
+msgid "is 1 Comment"
+msgstr ""
+
+#: ../comments.php:19
+msgid "are % Comments"
+msgstr ""
+
+#: ../comments.php:27 ../includes/blog.php:44 ../includes/posts.php:51
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../comments.php:28 ../includes/blog.php:45 ../includes/posts.php:52
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:49
+msgid "<span class=\"icon-comments\"></span> Write Your Comment"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../footer.php:15
+#, php-format
+msgid "Copyright &copy; %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: ../footer.php:19
+msgid "Powered by"
+msgstr ""
+
+#: ../footer.php:19
+msgid "WordPress"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Designed by"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Premium WordPress Themes"
+msgstr ""
+
+#: ../page-archives.php:22
+msgid "Last 10 Blog Posts"
+msgstr ""
+
+#: ../page-archives.php:27
+msgid "Blog Posts by Month"
+msgstr ""
+
+#: ../page-archives.php:32
+msgid "Blog Categories"
+msgstr ""
+
+#: ../single.php:48
+msgid "Our Rating"
+msgstr ""
+
+#: ../single.php:65
+msgid "Pros:"
+msgstr ""
+
+#: ../single.php:72
+msgid "Cons:"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:38
+#, php-format
+msgid "Posted by %s"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:40
+#: ../functions/theme-options/theme-functions.php:113
+#: ../includes/widgets/warrior-posts-box-four.php:58
+#: ../includes/widgets/warrior-posts-box-four.php:85
+#: ../includes/widgets/warrior-posts-box-two.php:58
+msgid "0 Comment"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:40
+#: ../functions/theme-options/theme-functions.php:113
+#: ../includes/widgets/warrior-posts-box-four.php:58
+#: ../includes/widgets/warrior-posts-box-four.php:85
+#: ../includes/widgets/warrior-posts-box-two.php:58
+#: ../includes/widgets/warrior-tabs.php:60
+#: ../includes/widgets/warrior-tabs.php:81
+msgid "1 Comment"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:40
+#: ../functions/theme-options/theme-functions.php:113
+#: ../includes/widgets/warrior-posts-box-four.php:58
+#: ../includes/widgets/warrior-posts-box-four.php:85
+#: ../includes/widgets/warrior-posts-box-two.php:58
+#: ../includes/widgets/warrior-tabs.php:60
+#: ../includes/widgets/warrior-tabs.php:81
+msgid "% Comments"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:40
+#: ../functions/theme-options/theme-functions.php:113
+#: ../includes/widgets/warrior-posts-box-four.php:58
+#: ../includes/widgets/warrior-posts-box-four.php:85
+#: ../includes/widgets/warrior-posts-box-two.php:58
+msgid "Comments are off"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:41
+#, php-format
+msgid "%s views"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:61
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:65
+#, php-format
+msgid "View all post by %s"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:67
+msgid "Visit author's website"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:100
+msgid "Related Posts"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:122 ../includes/posts.php:62
+msgid "Sorry, no post found."
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:194
+msgid "Edit Comment"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:195
+msgid "Reply"
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:199
+msgid ""
+"Your comment is now awaiting moderation before it will appear on this post."
+msgstr ""
+
+#: ../functions/theme-options/theme-functions.php:211
+msgid "Pingback"
+msgstr ""
+
+#: ../functions/theme-options/theme-styles.php:135
+#: ../functions/theme-options/theme-styles.php:138
+#: ../functions/theme-options/theme-styles.php:142
+msgid "Search ..."
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:27
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:28
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:47
+msgid "Slideshows"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:48
+msgid "Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:49
+msgid "Add New"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:50
+msgid "Add New Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:51
+msgid "Edit Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:52
+msgid "New Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:53
+msgid "View Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:54
+msgid "Search Slideshow"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:55
+msgid "Nothing found"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:56
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:92
+msgid " Slideshow Information"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:101
+msgid " Rating &amp; Review"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:129
+msgid "Slideshow URL"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:131
+msgid "Where should this slideshow linked to."
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:134
+msgid "Open URL in a New Window?"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:135
+msgid "Make this URL opened in a new window."
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:151
+msgid "Add New Criteria"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:161
+#, php-format
+msgid "Criteria %s"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:163
+#: ../functions/theme-options/theme-support.php:195
+msgid "Rating:"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:176
+#: ../functions/theme-options/theme-support.php:208
+msgid "Remove"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:193
+msgid "Criteria Name"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:217
+msgid "Pros &amp; Cons"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:220
+msgid "Pros"
+msgstr ""
+
+#: ../functions/theme-options/theme-support.php:224
+msgid "Cons"
+msgstr ""
+
+#: ../functions/theme-options/theme-widgets.php:11
+msgid "Homepage"
+msgstr ""
+
+#: ../functions/theme-options/theme-widgets.php:22
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions/theme-options/theme-widgets.php:33
+msgid "Footer"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:267
+msgid "Edit Post"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:409
+msgid "Views"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:477
+msgid "Average :"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:491
+#: ../functions/warriorpanel/admin-functions.php:494
+msgid "rate"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:491
+#: ../functions/warriorpanel/admin-functions.php:494
+msgid "star"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:499
+#: ../functions/warriorpanel/admin-functions.php:766
+#: ../functions/warriorpanel/admin-functions.php:768
+#: ../functions/warriorpanel/admin-functions.php:769
+#: ../functions/warriorpanel/admin-functions.php:783
+msgid "Your rating: "
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:499
+msgid "Average:"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:499
+msgid "votes"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:506
+msgid "Rate it"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:508
+msgid "1 Star"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:509
+msgid "2 Stars"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:510
+msgid "3 Stars"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:511
+msgid "4 Stars"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:512
+msgid "5 Stars"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:515
+msgid "Vote"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:815
+msgid "Subscribe feed"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:819
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:823
+msgid "Be our fans on Facebook"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:827
+msgid "MySpace page"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:831
+msgid "Linkedin profile"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:835
+msgid "Flickr photos"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:839
+msgid "YouTube videos"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-functions.php:843
+msgid "Vimeo videos"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:255
+msgid "Are you sure? All the settings will restored to default value."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:270
+msgid "Saving the options..."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:271
+msgid "Restoring the options..."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:280
+msgid "Close"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:386
+msgid "Configuration"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:394
+msgid "Support Forum &amp; Documentation"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:407
+#: ../functions/warriorpanel/admin-panel.php:412
+msgid "Save Changes"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:408
+#: ../functions/warriorpanel/admin-panel.php:413
+msgid "Restore"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:820
+#, php-format
+msgid "%s setting successfuly saved. "
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:847
+#, php-format
+msgid "%s setting successfuly restored. "
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:861
+msgid "More Themes from ThemeWarrior"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:884
+msgid "Designer :"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-panel.php:885
+msgid "Current Version :"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:209
+#: ../functions/warriorpanel/admin-seo.php:218
+#: ../functions/warriorpanel/admin-seo.php:231
+msgid " Theme SEO Options"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:267
+msgid "Noindex"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:268
+msgid "Make this page not be indexed by search engine."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:273
+msgid "Page Title"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:275
+msgid "Set custom title for this post/page."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:280
+msgid "Page Description"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:282
+msgid "Set custom meta description for this post/page."
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:287
+msgid "Page Keywords"
+msgstr ""
+
+#: ../functions/warriorpanel/admin-seo.php:289
+msgid "Set custom keywords for this post/page (separate each one with comma)."
+msgstr ""
+
+#: ../includes/posts.php:6
+#, php-format
+msgid "Posts filed under \"%s\""
+msgstr ""
+
+#: ../includes/posts.php:8
+#, php-format
+msgid "Posts tagged with \"%s\""
+msgstr ""
+
+#: ../includes/posts.php:10 ../includes/posts.php:12 ../includes/posts.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: ../includes/posts.php:16
+#, php-format
+msgid "All Posts Written by \"%s\""
+msgstr ""
+
+#: ../includes/posts.php:18
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: ../includes/posts.php:20
+msgid "Blog Archives"
+msgstr ""
+
+#: ../includes/widgets/warrior-ad-125x125.php:21
+msgid "Warrior Sidebar 125x125 Ad Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-ad-125x125.php:24
+msgid "Warrior Sidebar 125x125 Ad"
+msgstr ""
+
+#: ../includes/widgets/warrior-ad-125x125.php:82
+#: ../includes/widgets/warrior-ad-300x250.php:55
+msgid "You need to upload the banner images from <a href=\""
+msgstr ""
+
+#: ../includes/widgets/warrior-ad-300x250.php:21
+msgid "Warrior Sidebar 300x250 Ad Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-ad-300x250.php:24
+msgid "Warrior Sidebar 300x250 Ad"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:22
+msgid "Flickr Photos widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:25
+msgid "Warrior Flickr"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:57
+msgid "Flickr Photos"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:60
+#: ../includes/widgets/warrior-gallery.php:94
+#: ../includes/widgets/warrior-twitter.php:91
+#: ../includes/widgets/warrior-video.php:66
+msgid "Widget Title:"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:65
+msgid "Flickr ID (e.g 79988198@N00):"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:67
+msgid ""
+"Don't know your Flickr ID? Get it from <a href=\"http://idgettr.com\" target="
+"\"_blank\">IDGetter</a>"
+msgstr ""
+
+#: ../includes/widgets/warrior-flickr.php:71
+msgid "How many photos to show:"
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:21
+msgid "Display Photo Gallery."
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:24
+msgid "Home: Photo Gallery"
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:53
+#: ../includes/widgets/warrior-slideshows.php:77
+msgid "Sorry, there's no slideshow item to be displayed."
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:98
+#: ../includes/widgets/warrior-posts-box-four.php:141
+#: ../includes/widgets/warrior-posts-box-one.php:86
+#: ../includes/widgets/warrior-posts-box-three.php:148
+#: ../includes/widgets/warrior-posts-box-two.php:85
+#: ../includes/widgets/warrior-slideshows.php:193
+msgid "Number of Posts to be Displayed:"
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:102
+#: ../includes/widgets/warrior-posts-box-two.php:90
+#: ../includes/widgets/warrior-slideshows.php:167
+msgid "Select Posts Category:"
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:104
+#: ../includes/widgets/warrior-posts-box-four.php:115
+#: ../includes/widgets/warrior-posts-box-four.php:129
+#: ../includes/widgets/warrior-posts-box-three.php:122
+#: ../includes/widgets/warrior-posts-box-three.php:136
+#: ../includes/widgets/warrior-posts-box-two.php:92
+#: ../includes/widgets/warrior-slideshows.php:169
+msgid "Select Category"
+msgstr ""
+
+#: ../includes/widgets/warrior-gallery.php:109
+#: ../includes/widgets/warrior-posts-box-four.php:120
+#: ../includes/widgets/warrior-posts-box-four.php:134
+#: ../includes/widgets/warrior-posts-box-three.php:127
+#: ../includes/widgets/warrior-posts-box-three.php:141
+#: ../includes/widgets/warrior-posts-box-two.php:97
+#: ../includes/widgets/warrior-slideshows.php:174
+#: ../includes/widgets/warrior-slideshows.php:187
+#, php-format
+msgid "%s posts"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-four.php:21
+msgid ""
+"Posts box type four (two boxes displayed horizontally without any featured "
+"post item)."
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-four.php:24
+msgid "Home: Posts Box Type Four"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-four.php:113
+#: ../includes/widgets/warrior-posts-box-three.php:120
+msgid "Select Posts Category - Left Block:"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-four.php:127
+#: ../includes/widgets/warrior-posts-box-three.php:134
+msgid "Select Posts Category - Right Block:"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-one.php:21
+msgid "Posts box type one (displayed in blog style)."
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-one.php:24
+msgid "Home: Posts Box Type One"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-one.php:91
+msgid "Include this Category(s):"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-one.php:100
+msgid "Hold the Shift key to select more than one."
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-three.php:21
+msgid "Posts box type three."
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-three.php:24
+msgid "Home: Posts Box Type Three"
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-two.php:21
+msgid "Posts box type two."
+msgstr ""
+
+#: ../includes/widgets/warrior-posts-box-two.php:24
+msgid "Home: Posts Box Type Two"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:21
+msgid "Display most recent items from the slideshow post type."
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:24
+msgid "Home: Slideshows"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:158
+msgid "Slideshow taken from:"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:159
+msgid "Slideshows Post Type"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:160
+msgid "Posts Category"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:161
+msgid "Posts Tag"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:164
+#, php-format
+msgid ""
+"Slideshow will display items from the slideshow post type, you can manage "
+"your slideshows from %s"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:180
+msgid "Select Posts Tag:"
+msgstr ""
+
+#: ../includes/widgets/warrior-slideshows.php:182
+msgid "Select Tag"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:22
+msgid "Warrior Social Followers Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:25
+msgid "Warrior Social Followers"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:46
+msgid "Social Followers"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:50
+msgid "Facebook Likes"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:56
+msgid "Twitter Followers"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:80
+msgid "Facebook Page Name:"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:84
+msgid "Twitter Username:"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:88
+#: ../includes/widgets/warrior-twitter.php:107
+msgid "Twitter Consumer key:"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:92
+#: ../includes/widgets/warrior-twitter.php:111
+msgid "Twitter Consumer secret:"
+msgstr ""
+
+#: ../includes/widgets/warrior-social-followers.php:95
+#: ../includes/widgets/warrior-twitter.php:114
+msgid ""
+"You can get Twitter consumer key & consumer secret by <a href=\"http://dev."
+"twitter.com\" target=\"_blank\">creating an app</a> on Twitter."
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:21
+msgid "Warrior Tabs Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:24
+msgid "Warrior Tabs"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:40
+msgid "Recent"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:41
+msgid "Popular"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:42
+msgid "Comments"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:43
+msgid "Tags"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:60
+#: ../includes/widgets/warrior-tabs.php:81
+msgid "No Comments"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:94
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:144
+msgid "Number of Latest Posts to be Displayed:"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:149
+msgid "Number of Most Commented Posts to be Displayed:"
+msgstr ""
+
+#: ../includes/widgets/warrior-tabs.php:154
+msgid "Number of Latest Comments to be Displayed:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:22
+msgid "Warrior Twitter Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:25
+msgid "Warrior Twitter"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:54
+msgid "No Tweets"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:88
+msgid "Latest Tweets"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:88
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:95
+msgid ""
+"Twitter Username (this will also change the username in the WarriorPanel):"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:99
+msgid "Tweets Count:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:103
+msgid "Button Text:"
+msgstr ""
+
+#: ../includes/widgets/warrior-video.php:22
+msgid "Warrior Latest Video Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-video.php:25
+msgid "Warrior Latest Video"
+msgstr ""
+
+#: ../includes/widgets/warrior-video.php:63
+msgid "Latest Video"
+msgstr ""
+
+#: ../includes/widgets/warrior-video.php:70
+msgid "Video Embedded Codes:"
+msgstr ""
+
+#: ../includes/widgets/warrior-video.php:75
+msgid "Video Description:"
+msgstr ""

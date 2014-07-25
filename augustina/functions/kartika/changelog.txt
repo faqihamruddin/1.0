@@ -1,0 +1,82 @@
+** Changelog for WarriorPanel Framework **
+** Author: http://www.themewarrior.com **
+
+2013/07/14 -- Version 1.6.8
+- Fix possible security issue.
+
+2013/02/08 -- Version 1.6.7
+- Modify shortcode functions
+  * /warriorpanel/admin-shortcodes.php
+- Fix button and admin panel message style
+  * /warriorpanel/admin-panel.php
+  * /warriorpanel/css/style.css
+
+2012/10/25 -- Version 1.6.6
+- Replace all referrence to:
+  * bloginfo('template_url') and bloginfo('template_url') into get_template_directory_uri()
+  * bloginfo('stylesheet_directory') and bloginfo('stylesheet_directory') into get_stylesheet_directory_uri()
+  * TEMPLATEPATH into get_template_directory()
+
+2012/09/25 -- Version 1.6.5
+- Fix minor login logo bug
+  * /warriorpanel/admin-functions.php
+- Fix shortcode color issue
+  * /warriorpanel/css/shortcodes.css
+
+2012/07/29 -- Version 1.6.4
+- Fix minor bug in wp-admin logo function
+  * /warriorpanel/admin-functions.php
+
+2012/06/09 -- Version 1.6.3
+- Update themes feed URL
+  * /warriorpanel/adnin-functions.php
+- Update icons
+- Change message overlay technique
+  * /warriorpanel/css/style.css
+- Update shortcodes alert style
+  * /warriorpanel/css/shortcodes.css
+- Use default WordPress jQuery Accordion script for shortcodes
+  * /warriorpanel/admin-shortcodes.php
+
+2012/05/26 -- Version 1.6.2
+- Fix shortcode CSS
+  * /warriorpanel/css/shortcodes.css
+
+2012/05/14 -- Version 1.6.1
+- Fix shortcode CSS
+  * /warriorpanel/admin-shortcodes.php
+  * /warriorpanel/css/shortcodes.css
+
+2012/04/13 -- Version 1.6.0
+- Add shortcodes functionality to WarriorPanel
+- Add more customisation options to WarriorPanel framework
+- Add WarriorPanel menus to WordPress admin bar
+
+2011/12/08 -- Version 1.5.4
+- /warriorpanel/admin-functions.php * Fix quotes on warrior_thumbnail()
+
+2011/10/12 -- Version 1.5.3
+- /warriorpanel/admin-functions.php * Add print function
+- /warriorpanel/admin-panel.php * Fix php short open tag issue
+
+2011/08/15 -- Version 1.5.2
+- /warriorpanel/admin-panel.php * Fix short_open_tag issue.
+
+2011/07/19 -- Version 1.5.1
+- Add framework update feature
+- Increase textarea heights and set resize: vertical; in /warriorpanel/css/style.css
+- Only display rating JS when rating feature is turned on
+- /wariorpanel/admin-functions.php * Fix warrior_social_icons() url path issue
+- Fix WarriorPanel SEO bug and add custom post type compatibility
+- Rename /warriorpanel/css/seo-meta.css to /warriorpanel/css/metabox.css
+- /warriorpanel/admin-seo.php * Change /warriorpanel/css/seo-meta.css reference to /warriorpanel/css/metabox.css
+- Modify colorpicker
+- Fix small issue with image uploader
+- /warriorpanel/admin-functions.php * Add warrior_header_codes() and warrior_footer_codes()
+- Remove /warriorpanel/css/themes.css
+- /warriorpanel/admin-functions.php * Fix missing </p> close tag in warrior_admin_update_link()
+- /warriorpanel/admin-seo.php * Fix array issue when saving post via quick edit
+- /warriorpanel/admin-panel.php * Add stripslashes to text and textarea value
+
+2011/05/06 -- Version 1.5
+- WarriorPanel framework is released

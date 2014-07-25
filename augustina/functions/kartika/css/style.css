@@ -1,0 +1,732 @@
+/*
+kartika
+ThemeWarrior's options panel.
+http://www.themewarrior.com
+*/
+
+/*@import url("reset.css");*/
+
+/* -----------------------------------
+	Common Styles 
+-----------------------------------*/
+#kartika textarea {
+	font: 100% Arial, Helvetica, sans-serif;
+}
+
+#kartika .button {
+	margin-right: 10px;
+}
+
+#kartika a {
+	color: #546f7e;
+	text-decoration: none;
+}
+
+#kartika a:link {
+	color: #546f7e;
+	text-decoration: none;
+}
+
+#kartika a:hover {
+	text-decoration: underline;
+}
+
+
+#kartika p {
+	margin: 10px 0;
+}
+
+#kartika ul, ol {
+	margin: 0 24px;
+}
+
+#kartika h1, #kartika h2, #kartika h3 {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#kartika h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#kartika h2 {
+	font-size: 20px;
+}
+
+#kartika h3 {
+	font-size: 16px;
+}
+
+#kartika h4 {
+	font-size: 14px;
+}
+
+#kartika h5 {
+	font-size: 12px;
+}
+
+#kartika h6 {
+	font-size: 10px;
+}
+
+#kartika table {
+	clear: both;
+	margin: 10px 0;
+}
+
+#kartika ul, #kartika ol {
+	margin: 0 24px;
+}
+
+#kartika ul li {
+	list-style: disc;
+	margin-bottom: 4px;
+}
+
+#kartika ol li {
+	list-style: decimal;
+	margin-bottom: 4px;
+}
+
+#kartika .clearfix, #kartika .wrapper {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+/* Main container style */
+#kartika {
+	font: 65% Arial, Helvetica, sans-serif;
+	color: #555;
+	line-height: 150%;
+	width: 830px;
+	margin-top: 40px;
+	text-align: left;
+	display: block;
+	background: #ecf0f1;
+	margin: 40px auto;
+}
+
+#kartika .rounded {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+
+/* -----------------------------------
+	Left Column Styles 
+-----------------------------------*/
+#kartika #leftcol {
+	display: inline-block;
+	width: 185px;
+	vertical-align: top;
+}
+
+/* -----------------------------------
+	Right Column Styles 
+-----------------------------------*/
+#kartika #rightcol {
+	display: inline-block;
+	width:640px;
+	min-height: 600px;
+	height: auto !important;
+	height: 600px;
+	background: #fff;
+}
+
+#kartika #rightcol .inner {
+	padding: 15px;
+}
+
+/* -----------------------------------
+	Main Menu Styles 
+-----------------------------------*/
+#kartika ul.main-menu {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	border-right: none;
+}
+
+#kartika ul.main-menu li {
+	list-style: none;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#kartika ul.main-menu li.active,
+#kartika ul.main-menu li.active:hover {
+	background: ;
+}
+
+#kartika ul.main-menu li:hover {
+	background: #f6f4f4;
+}
+
+#kartika ul.main-menu a {
+	display: block;
+	background: url(../images/icon-general.png) 8px 12px no-repeat;
+	font-weight: bold;
+	color: #707f85;
+	line-height: 120%;
+	text-decoration: none;
+	margin: 0;
+	padding: 14px 0 14px 32px;
+	border-bottom: 1px solid #e3e2e2;
+}
+
+#kartika ul.main-menu a.appearance {
+	background-image: url(../images/icon-appearance.png);
+}
+
+#kartika ul.main-menu a.homepage {
+	background-image: url(../images/icon-homepage.png);
+}
+
+#kartika ul.main-menu a.navigation {
+	background-image: url(../images/icon-navigation.png);
+}
+
+#kartika ul.main-menu a.advertisement {
+	background-image: url(../images/icon-advertisement.png);
+}
+
+#kartika ul.main-menu a.socnet {
+	background-image: url(../images/icon-socnet.png);
+}
+
+#kartika ul.main-menu a.miscellaneous {
+	background-image: url(../images/icon-miscellaneous.png);
+}
+
+#kartika ul.main-menu a.seo-homepage {
+	background-image: url(../images/icon-seo-homepage.png);
+}
+
+#kartika ul.main-menu a.seo-single-post {
+	background-image: url(../images/icon-seo-single-post.png);
+}
+
+#kartika ul.main-menu a.seo-indexing {
+	background-image: url(../images/icon-seo-indexing.png);
+}
+
+
+/* -----------------------------------
+	Header Styles 
+-----------------------------------*/
+#kartika #header {
+	height: 100px;
+	padding: 10px;
+	background: #3498db;
+}
+
+#kartika #header h1.theme-name {
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: #515961;
+	text-shadow: 1px 1px #fff;
+	letter-spacing: -1px;
+	line-height: 120%;
+	margin: 0;
+	padding-top: 5px;
+}
+
+#kartika h1.theme-name span.theme-version {
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: normal;
+	margin: 0;
+}
+
+#kartika #header .logo {
+	float: left;
+	margin: 20px 0;
+	text-align: right;
+}
+
+#kartika #header .top-links {
+	float: left;
+	width: 380px;
+	font-size: 11px;
+	color: #a3a3a3;
+	line-height: 150%;
+	text-shadow: 1px 1px #fff;
+	margin-top:7px;
+}
+
+#kartika #header .top-links a {
+	color: #a3a3a3;
+	margin-right: 10px;
+}
+
+#kartika #header .version {
+	float: right;
+	width: 230px;
+	font-size: 11px;
+	color: #fff;
+	line-height: 150%;
+	text-align: right;
+	margin-top:7px;
+}
+
+/* -----------------------------------
+	Message Styles 
+-----------------------------------*/
+#TB_message {
+	height: 100%;
+	width: 100%;
+	background: url(../images/bg-overlay.png) !important;
+	position: fixed;
+	z-index:100;
+	top: 0;
+	left: 0;
+	opacity: 1 !important;
+	filter:alpha(opacity=11 !important);
+}
+
+.message {
+	display: none;
+	background: #fff;
+	width: 400px;
+	font-size: 14px;
+	margin: 300px auto 20px auto;
+	padding: 40px 40px 40px 45px;
+	position: relative;
+	border: 10px solid #eee;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.message span.close {
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon-close.png) no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.message span.close a {
+	display: block;
+	text-indent: -9999px;
+}
+
+.success {
+	background: #fff url(../images/icon-success.png) 20px 40px no-repeat;
+	color: #327000;
+}
+
+.error {
+	background: #fff url(../images/icon-error.png) 10px 40px no-repeat;
+	color: #8f0b0b;
+}
+
+.ajax-progress {
+	background: #fff url(../images/ajax-loader.gif) 20px 40px no-repeat;
+}
+
+/* -----------------------------------
+	Options Styles 
+-----------------------------------*/
+#kartika h2.title {
+	float: left;
+	clear: both;
+	width: 99%;
+	background: url(../images/bg-option-title.gif) repeat-x;
+	font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color: #000;
+	line-height: 120%;
+	margin: 10px 0 20px 0;
+	padding: 0;
+}
+
+#kartika h2.title span {
+	background: #fff;
+	padding-right: 20px;
+}
+
+#kartika fieldset div.input {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 15px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#kartika fieldset div.submit {
+	padding: 0;
+	border-bottom: none;
+}
+
+#kartika fieldset div.input label.inputlabel {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+#kartika fieldset div.input .field {
+	float: left;
+	width: 310px;
+	margin-right: 30px;
+}
+
+#kartika fieldset div.checkbox .field label.desc {
+	float: none;
+	display: inline;
+	width: 100%;
+	font-size:11px;
+	font-weight: normal;
+	cursor: pointer;
+	text-transform: none;
+	margin-left:5px;
+	margin-right: 0;
+	position: relative;
+	top: -3px;
+}
+
+#kartika fieldset div.field input,
+#kartika fieldset div.field select,
+#kartika fieldset div.field textarea {
+	width: 310px;
+	height: 30px;
+	background: #fcfcfc;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #8d8b8b;
+	padding: 6px 4px;
+	border: 1px solid #e4e2e2;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#kartika fieldset div.color .field div {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: url(../images/colorpicker/select.png) center;
+	margin-right: 10px;
+}
+
+#kartika fieldset div.color div.field input {
+	float: left;
+	width: 260px;
+}
+#kartika fieldset div.multi-text div.field label {
+	float: left;
+	display: inline;
+	font-weight: normal;
+	text-transform: none;
+	padding: 5px 0;
+}
+
+#kartika fieldset div.multi-text input {
+	float: left;
+	width: 40px;
+	margin: 0 5px;
+}
+#kartika fieldset div.field select,
+#kartika fieldset div.field textarea {
+	height: auto;
+}
+#kartika fieldset div.field textarea {
+	height: auto;
+	resize: vertical;
+}
+
+#kartika fieldset div.file input.file-url {
+	width: 240px;
+	margin: 0 5px 10px 0;
+	height: 30px;
+}
+
+#kartika fieldset div.file input.file-button,
+#kartika fieldset div.input div.remove a {
+	width: 60px;
+	height: 30px;
+	background: #e0e0e0 url(../images/bg-gradient-grey.gif) repeat-x;
+	font-size: 11px;
+	color: #888;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 5px 0 5px 3px !important;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+}
+
+#kartika fieldset div.file input.file-button:focus {
+	background: #eee;
+}
+
+#kartika fieldset div.field input:focus,
+#kartika fieldset div.field select:focus,
+#kartika fieldset div.field textarea:focus {
+	background: #fff;
+}
+
+#kartika fieldset div.input select {
+	width: 310px;
+	height: 30px;
+	padding: 4px;
+}
+
+#kartika fieldset div.checkbox input,
+#kartika fieldset div.radio input {
+	width: auto;
+}
+
+#kartika fieldset div.input input.save,
+#kartika fieldset div.input input.restore {
+}
+
+#kartika fieldset div.input input.restore {
+}
+
+#kartika fieldset div.input input.save:hover {
+	background: #2b77aa;
+}
+
+#kartika fieldset div.input input.restore:hover {
+}
+
+#kartika fieldset div.input div.desc {
+	float: left;
+	width: 265px;
+	font-size: 11px;
+	color: #999;
+	line-height: 125%;
+}
+
+#kartika fieldset div.input span.desc {
+	font-size: 11px;
+	color: #b4b4b4;
+	line-height: 125%;
+	margin-right: 10px;
+}
+
+#kartika fieldset div.input div.desc span.warning {
+	font-weight: bold;
+	color: #a72d2d;
+	text-transform: uppercase;
+}
+
+#kartika fieldset div.input .image {
+	overflow: hidden;
+}
+
+#kartika fieldset div.input .image img {
+	max-width: 300px;
+}
+
+#kartika fieldset div.input .image-hide {
+	display: none !important;
+}
+
+#kartika fieldset div.input div.remove {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#kartika fieldset div.input div.remove a {
+	text-decoration: none;
+	padding: 4px !important;
+	border: 1px solid #dedede;
+}
+
+#kartika fieldset div.input .msg {
+	clear: both;
+	font-size: 10px;
+	color: #75a60e;
+	text-transform: uppercase;
+	padding: 3px 0;
+}
+
+#kartika fieldset div.switch .field label {
+	padding-bottom: 0;
+	font-size:11px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#kartika fieldset div.switch .field {
+	width: 85px;
+	margin-right: 20px;
+}
+
+#kartika fieldset div.switch div.desc {
+	width: 445px;
+}
+
+#kartika .switch-enable,
+#kartika .switch-disable,
+#kartika .switch-enable span,
+#kartika .switch-disable span {
+	float: left;
+	display: block;
+	background: url(../images/switch.gif) repeat-x;
+}
+
+#kartika .switch-enable span,
+#kartika .switch-disable span {
+	display: block;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#kartika .switch-enable span {
+	background-position: left -90px;
+	padding: 0 10px;
+}
+
+#kartika .switch-disable span {
+	background-position: right -180px;
+	padding: 0 10px;
+}
+
+#kartika .switch-disable.selected {
+	background-position: 0 -30px;
+}
+
+#kartika .switch-disable.selected span {
+	background-position: right -210px;
+	color: #fff;
+}
+
+#kartika .switch-enable.selected {
+	background-position: 0 -60px;
+}
+
+#kartika .switch-enable.selected span {
+	background-position: left -150px;
+	color: #fff;
+}
+
+#kartika .switch label {
+	cursor: pointer;
+}
+
+#kartika .switch input {
+	display: none;
+}
+
+#rightcol fieldset .info {
+	clear: both;
+	background: #fffbcc;
+	font: italic 12px Georgia, "Times New Roman", Times, serif;
+	line-height: 140%;
+	margin: 30px 0 10px 0;
+	border: 1px solid #e6db55;
+	-moz-border-radius: 3px;
+}
+
+#rightcol fieldset .info .inner {
+	padding: 10px !important;
+}
+
+#rightcol fieldset .info h3 {
+	font-size: 12px;
+	line-height: 120%;
+	margin: 0 0 7px 0;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #e6db55;
+}
+
+/* -----------------------------------
+	Theme List Styles 
+-----------------------------------*/
+ul#tw-themes {
+	float: left;
+	clear: both;
+	width: 100%;
+	font: 13px/150% "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	text-align: left;
+	margin: 20px 0;
+	padding: 0;
+}
+
+ul#tw-themes li {
+	float: left;
+	width: 29%;
+	height: 370px;
+	color: #666;
+	text-shadow: 1px 1px #fff;
+	list-style: none;
+	margin: 0;
+	margin-right:-1px;
+	padding: 2%;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+ul#tw-themes .thumb {
+	margin-bottom: 10px;
+}
+
+ul#tw-themes .thumb img {
+	border: 1px solid #ddd;
+}
+
+ul#tw-themes h3.name {
+	font-size: 16px;
+	margin: 0 0 5px 0;
+}
+
+ul#tw-themes h3.name a{
+	text-decoration:none;
+}
+
+ul#tw-themes .desc {
+	font-style: italic;
+	line-height: 150%;
+}
+
+ul#tw-themes .meta {
+	font-size: 11px;
+	color: #666;
+	line-height: 130%;
+	margin-top: 10px;
+}
+
+ul#tw-themes .meta span {
+	font-weight: bold;
+}
+
+
+#rightcol {
+	position: relative;
+}
+#save-restore-button {
+	height: 30px;
+}
+#save-restore-button.fixed {
+	position: fixed;
+	top: 28px; /* wpadminbar */
+	left: 336px;
+	width: 830px;
+	padding: 15px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	z-index: 100;
+}
